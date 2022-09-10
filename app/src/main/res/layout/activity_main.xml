@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/dupla_margo"
+    android:padding="@dimen/alap_margo"
+    android:theme="@style/Theme.MyApplication"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/iranyitoszam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/iranyitoszam"
+        android:inputType="textPostalAddress"
+        android:minHeight="48dp"
+        android:textAppearance="@style/sajatSzoveg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.129" />
+
+    <EditText
+        android:id="@+id/varos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/varos"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textAppearance="@style/sajatSzoveg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iranyitoszam"
+        app:layout_constraintVertical_bias="0.155" />
+
+    <EditText
+        android:id="@+id/utca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/utca"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:textAppearance="@style/sajatSzoveg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/varos"
+        app:layout_constraintVertical_bias="0.221" />
+
+    <EditText
+        android:id="@+id/hazszam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hazszam"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textAppearance="@style/sajatSzoveg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/utca"
+        app:layout_constraintVertical_bias="0.257" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/alap_margo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hazszam">
+
+        <Button
+            android:id="@+id/betoltGomb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/alap_margo"
+            android:layout_weight="1"
+            android:text="@string/betoltes" />
+
+        <Button
+            android:id="@+id/mentesGomb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/alap_margo"
+            android:layout_weight="1"
+            android:text="@string/mentes" />
+
+        <Button
+            android:id="@+id/adatbazisGomb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/alap_margo"
+            android:layout_weight="1"
+            android:text="@string/adatbazis" />
+
+        <Button
+            android:id="@+id/kuldesGomb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/alap_margo"
+            android:layout_weight="1"
+            android:text="@string/kuldes" />
+
+        <Button
+            android:id="@+id/szenzorosGomb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Szenzor" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="48dp"
+        android:layout_height="51dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.954"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        app:srcCompat="@drawable/zaszlo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

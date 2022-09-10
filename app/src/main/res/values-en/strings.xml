@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="iranyitoszam">Postal Code</string>
+    <string name="varos">City</string>
+    <string name="utca">Street</string>
+    <string name="hazszam">House Number</string>
+    <string name="kuldes">Send</string>
+    <string name="kamera">Camera</string>
+    <string name="toast_uzenet">Invalid data</string>
+    <string name="kotelezo">Required field</string>
+    <string name="betoltes">Load</string>
+    <string name="mentes">Save</string>
+    <string name="sikeres_mentes_uzenet">Address saved successfully</string>
+    <string name="sikeres_betoltes_uzenet" >Loading success</string>
+    <string name="ismeretlen_varos">Unknown City</string>
+    <string name="log_uzenet">Address had been saved</string>
+    <string name="adatbazis">Database</string>
+
+</resources>

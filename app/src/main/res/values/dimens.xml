@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="alap_margo">3dp</dimen>
+    <dimen name="dupla_margo">6dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="betumeret">18dp</dimen>
+</resources>

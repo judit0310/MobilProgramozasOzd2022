@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Alkalmazásom</string>
+    <string name="iranyitoszam">Irányítószám</string>
+    <string name="varos">Város</string>
+    <string name="utca">Utca</string>
+    <string name="hazszam">Hászám</string>
+    <string name="kuldes">Küldés</string>
+    <string name="kamera">Kamera</string>
+    <string name="toast_uzenet">Hibás adatok</string>
+    <string name="kotelezo">Kötelező megadni</string>
+    <string name="betoltes">Betöltés</string>
+    <string name="mentes">Mentés</string>
+    <string name="sikeres_mentes_uzenet">Sikeresen elmentette a címet</string>
+    <string name="sikeres_betoltes_uzenet">Sikeres betöltés</string>
+    <string name="ismeretlen_varos">Ismeretlen város</string>
+    <string name="log_uzenet">Új cím került elmentésre</string>
+    <string name="adatbazis">Adatbázis</string>
+
+</resources>
