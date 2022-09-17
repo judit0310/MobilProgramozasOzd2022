@@ -15,5 +15,10 @@
     <string name="ismeretlen_varos">Ismeretlen város</string>
     <string name="log_uzenet">Új cím került elmentésre</string>
     <string name="adatbazis">Adatbázis</string>
+    <string name="szemely_nem_talalhato">A keresett személy nem található</string>
+    <string name="azonosito" translatable="false">ID</string>
+    <string name="vezeteknev">Vezetéknév</string>
+    <string name="keresztnev">Keresztnév</string>
+    <string name="fizetes">Fizetés</string>
 
 </resources>

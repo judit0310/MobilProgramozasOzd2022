@@ -16,5 +16,8 @@
     <string name="ismeretlen_varos">Unknown City</string>
     <string name="log_uzenet">Address had been saved</string>
     <string name="adatbazis">Database</string>
-
+    <string name="szemely_nem_talalhato">No person found with this id</string>
+    <string name="vezeteknev">Last Name</string>
+    <string name="keresztnev">First Name</string>
+    <string name="fizetes">Salary</string>
 </resources>
